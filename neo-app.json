@@ -41,23 +41,25 @@
       "path": "/sap/opu/odata",
       "target": {
         "type": "destination",
-        "name": "minda_qa",
+        "name": "MINDA_HANA_QAS",
         "entryPath": "/sap/opu/odata"
       },
-      "description": "OData"
-    },{
-        "path": "/token",
-        "target": {
-            "type": "destination",
-            "name": "auth_qa"
-        },
-        "description": "OAuth Token"
-    }, {
-        "path": "/services/userapi",
-        "target": {
-            "type": "service",
-            "name": "userapi"
-        }
+      "description": "MINDA_HANA_QAS"
+    },
+    {
+      "path": "/token",
+      "target": {
+        "type": "destination",
+        "name": "auth_qa"
+      },
+      "description": "OAuth Token"
+    },
+    {
+      "path": "/services/userapi",
+      "target": {
+        "type": "service",
+        "name": "userapi"
+      }
     }
   ],
   "sendWelcomeFileRedirect": true
